@@ -31,6 +31,6 @@ public class RwaApplication extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(ParconApplication.class);
+        return application.sources(RwaApplication.class);
     }
 }
